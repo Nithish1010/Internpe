@@ -9,7 +9,7 @@ public class gnum
         while(playagain)
         {
             System.out.println("\n\t\t\t\tWelcome to Number guessing Game!");
-            System.out.println("\nEnter no. of trails: ");
+            System.out.println("\nEnter no. of trials: ");
             int k=sc.nextInt();
             int num=1+(int)(Math.random()*100);
             int i=0;
